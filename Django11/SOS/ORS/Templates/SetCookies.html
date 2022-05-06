@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+
+name :
+<input type="text" placeholder="name" name="cookieName">
+<br>
+value :
+<input type="text" placeholder="value" name="cookieValue">
+
+    <br>
+<input type="submit" value="save">
+
+
+</form>
+</body>
+</html>

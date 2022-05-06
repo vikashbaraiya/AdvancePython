@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+
+firstname :
+<input type="text" placeholder="enter firstname" name="firstName">
+<br>
+lastname :
+<input type="text" placeholder="enter lastname" name="lastName">
+<br>
+mobile number :
+<input type="text" placeholder="enter mobile No." name="mobileNumber">
+<br>
+email ID :
+<input type="text" placeholder="enter email" name="email">
+<br>
+password :
+<input type="text" placeholder="enter password" name="password">
+<br>
+<input type="submit" value="save">
+
+</form>
+</body>
+</html>
